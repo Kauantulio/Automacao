@@ -1,8 +1,10 @@
 *Settings*
-Documentation           Suite dos testes de Cadastro de Entregador
+Documentation    Suite dos testes de Cadastro de Entregador
 
-Resource        ../Resource/base.robot
-Resource        elements.robot
-Resource        keywords.robot
+Resource    Resources/base.robot
+Resource    elements.robot
+Resource    keywords.robot
 
 *Test Cases*
+Cadastrar entregador
+    Acessar buger-eats
