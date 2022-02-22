@@ -8,3 +8,6 @@ Resource    keywords.robot
 *Test Cases*
 Cadastrar entregador
     Acessar buger-eats
+
+    Clicar no botão Cadastre-se
+
