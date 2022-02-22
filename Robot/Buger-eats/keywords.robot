@@ -23,6 +23,9 @@ Preencher os campos diponíveis
     Wait Until Element Is Visible    ${BAIRRO}
     Wait Until Element Is Visible    ${CIDADE}
 
+    Input Text    ${NUMERO}         12345
+    Input Text    ${COMPLEMENTO}    Em frente a casa
+
     Click Element    ${BTN_OPCAO_MOTO}
 
 Adicionar foto da CNH
