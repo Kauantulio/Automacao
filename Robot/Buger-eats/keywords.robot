@@ -31,13 +31,3 @@ Preencher os campos diponíveis
 Adicionar foto da CNH
     Choose File                      ${BTN_FOTO_CNH}       ${ARQUIVO_CNH}
     Wait Until Element Is Visible    ${FOTO_ADICIONADA}
-
-Clicar no botão Cadastrar
-    Click Button    ${BTN_CADASTRAR}
-
-Fechar modal de sucesso
-    Wait Until Element Contains    ${MODAL_SUCESSO}    Aí Sim...
-
-    Click Button    ${BTN_FECHAR_MODAL}
-
-    Wait Until Page Contains    Seja um parceiro entregador pela Buger Eats
